@@ -115,7 +115,7 @@ const agregarAlCarrito = async (id) =>{
     }
     localStorage.setItem("carrito", JSON.stringify(carrito));
     }catch(error) {
-      console.log(error);
+      
     }  
 }
 
@@ -186,7 +186,7 @@ const sumar = async (id) =>{
     }
     localStorage.setItem("carrito", JSON.stringify(carrito));
     }catch(error) {
-      console.log(error);
+      
     }  
 }
 
@@ -203,7 +203,7 @@ const restar = async (id) =>{
       eliminarDelCarrito(id);
     }
     }catch(error) {
-      console.log(error);
+      
     }
 }
 
