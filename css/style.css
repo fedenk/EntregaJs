@@ -1,0 +1,165 @@
+body main h2 {
+  text-align: center;
+  font-family: "Koulen", cursive;
+  font-size: 400%;
+  color: black;
+}
+
+.boton {
+  width: 100px;
+  height: 50px;
+  font-family: "Koulen", cursive;
+  font-size: 150%;
+  color: #f105a3;
+  border-radius: 20%;
+  background-color: black;
+  border-color: #f105a3;
+}
+.boton:hover {
+  color: black;
+  background-color: #f105a3;
+  border-color: black;
+}
+
+.form-label {
+  font-family: "Koulen", cursive;
+  color: #f105a3;
+}
+
+.form-check .form-check-input:checked {
+  background-color: #f105a3;
+}
+.form-check .form-check-label {
+  font-family: "Koulen", cursive;
+}
+
+.card {
+  margin-bottom: 20px;
+  background-image: linear-gradient(45deg, #f105a3, rgb(11, 11, 11));
+}
+.card .card-title {
+  font-family: "Bangers", cursive;
+  font-size: 300%;
+  margin-top: 20px;
+  -webkit-text-stroke: 1px #f105a3;
+}
+.card .card-body .card-img-top {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+}
+.card .card-body .card-text {
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 200%;
+}
+.card .card-body .btn1 {
+  width: 50px;
+  height: 50px;
+  font-family: "Koulen", cursive;
+  font-size: 150%;
+  color: #f105a3;
+  border-radius: 20%;
+  background-color: #740386;
+  border-color: #f105a3;
+}
+.card .card-body .btn1:hover {
+  color: #740386;
+  background-color: #f105a3;
+  border-color: #740386;
+}
+.card .card-body .btn2 {
+  width: 100px;
+  height: 50px;
+  font-family: "Koulen", cursive;
+  font-size: 130%;
+  color: #f105a3;
+  border-radius: 8%;
+  background-color: #740386;
+  border-color: #f105a3;
+}
+.card .card-body .btn2:hover {
+  color: #740386;
+  background-color: #f105a3;
+  border-color: #740386;
+}
+
+.navbar {
+  padding: 40px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(180deg, rgb(241, 5, 163), rgb(11, 11, 11));
+}
+.navbar .img-nav {
+  -webkit-text-stroke: 1px #f105a3;
+}
+
+.footer-style {
+  background-image: linear-gradient(180deg, rgb(241, 5, 163), rgb(11, 11, 11));
+  margin-top: 40px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.footer-style .text-style {
+  font-family: "Koulen", cursive;
+  margin-top: 5px;
+}
+.footer-style .foot-icon {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.card-carrito {
+  border: solid 1px #f105a3;
+  border-radius: 5%;
+  margin-bottom: 5px;
+}
+.card-carrito .h5 {
+  color: #f105a3;
+  text-align: center;
+  font-family: "Bangers", cursive;
+}
+.card-carrito .p-carrito {
+  color: #f105a3;
+  text-align: center;
+  font-family: "Koulen", cursive;
+}
+
+.btncarrito {
+  font-family: "Koulen", cursive;
+  color: #f105a3;
+  background-color: #740386;
+  border-color: #f105a3;
+  width: 155px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: #740386;
+}
+
+body header div h1 {
+  text-align: center;
+  font-family: "Koulen", cursive;
+  font-size: 400%;
+  padding: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  background-color: #f105a3;
+  opacity: 70%;
+}
+
+.centrado {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

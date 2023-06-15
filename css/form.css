@@ -1,0 +1,36 @@
+body main h2 {
+  text-align: center;
+  font-family: "Koulen", cursive;
+  font-size: 400%;
+  color: black;
+}
+
+.boton {
+  width: 100px;
+  height: 50px;
+  font-family: "Koulen", cursive;
+  font-size: 150%;
+  color: #f105a3;
+  border-radius: 20%;
+  background-color: black;
+  border-color: #f105a3;
+}
+.boton:hover {
+  color: black;
+  background-color: #f105a3;
+  border-color: black;
+}
+
+.form-label {
+  font-family: "Koulen", cursive;
+  color: #f105a3;
+}
+
+.form-check .form-check-input:checked {
+  background-color: #f105a3;
+}
+.form-check .form-check-label {
+  font-family: "Koulen", cursive;
+}
+
+/*# sourceMappingURL=form.css.map */

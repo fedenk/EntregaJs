@@ -1,0 +1,32 @@
+@use "form";
+@use "cards";
+@use "nav";
+@use "footer";
+@use "carrito";
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:0;
+}
+
+body{
+    background-color: #740386;
+}
+
+body header div h1{
+    text-align:center;
+    font-family:'Koulen', cursive;
+    font-size: 400%;
+    padding: 15px;
+    margin-bottom:25px;
+    margin-top:25px;
+    background-color:#f105a3;
+    opacity:70%;
+}
+
+
+
+.centrado{
+    text-align:center;
+}

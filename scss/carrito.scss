@@ -1,0 +1,28 @@
+.dropdown-menu{
+    background-color: black;
+}
+.card-carrito{
+    border:solid 1px #f105a3;
+    border-radius: 5%;
+    margin-bottom:5px;
+    .h5{
+        color:#f105a3;
+        text-align: center;
+        font-family: 'Bangers', cursive;
+    }
+    .p-carrito{
+        color:#f105a3;
+        text-align: center;
+        font-family:'Koulen', cursive;  
+    }
+}
+
+.btncarrito{
+            font-family:'Koulen', cursive;
+            color:#f105a3;
+            background-color: #740386;
+            border-color:#f105a3;
+            width: 155px;
+            }
+
+
