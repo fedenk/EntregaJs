@@ -48,7 +48,7 @@ newForm.innerHTML = `
   <textarea class="form-control" rows="3" id="mensaje"></textarea>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <input class="form-check-input" type="checkbox" value="false" id="flexCheckChecked" >
   <label class="form-check-label" for="flexCheckChecked">
     Acepto terminos y condiciones
   </label>
@@ -67,15 +67,13 @@ const capturaDatos = ()=>{
   const nombre = document.getElementById("nombre").value;
   const mail = document.getElementById("mail").value;
   const mensaje = document.getElementById("mensaje").value;
-  const check = document.getElementById("flexCheckChecked").value;
+  const check = document.getElementById("flexCheckChecked");
 
   if( nombre == ""){
     alert("Ingrese nombre obligatorio")
   }else if( mail == ""){
     alert("Ingrese e-mail obligatorio")
-  }else if(!check){
-    alert("Debe aceptar terminos y condiciones")
-  }else{
+  }else if(check.checked){
     const data = {
       nombre,
       mail,
@@ -85,6 +83,8 @@ const capturaDatos = ()=>{
     datos.push(data);
   
     localStorage.setItem("datos", JSON.stringify(datos));
+  }else{
+    alert("Debe aceptar terminos y condiciones")
   }
 }
 
