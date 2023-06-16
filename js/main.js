@@ -17,7 +17,7 @@ barraNav.innerHTML = `
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a class="navbar-brand" href="pages/formulario.html">
+          <a class="navbar-brand" href="./pages/formulario.html">
           <img src="./images/manzana.png" alt="inicio" width="40" height="40" class="img-nav">
           </a>
           <a id="verCarrito" href="carrito" role="button" data-bs-toggle="dropdown" aria-expanded="false">
