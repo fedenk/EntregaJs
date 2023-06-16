@@ -9,7 +9,7 @@ barraNav.innerHTML = `
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="../index.html">
-    <img src="/images/musica.png" alt="inicio" width="40" height="40" class="img-nav">
+    <img src="./images/musica.png" alt="inicio" width="40" height="40" class="img-nav">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@ barraNav.innerHTML = `
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="navbar-brand" href="../pages/formulario.html">
-          <img src="/images/manzana.png" alt="inicio" width="40" height="40" class="img-nav">
+          <img src="./images/manzana.png" alt="inicio" width="40" height="40" class="img-nav">
           </a>
           <a id="verCarrito" href="carrito" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <img src="./images/carrito-de-compras.png" alt="carrito" width="40" height="40" class="img-nav">
@@ -228,10 +228,10 @@ footerPage.innerHTML = `
 </div>
 <div class="col-lg-6  centrado">
     <a class="instagram foot-icon" href="https://www.instagram.com/" target="_BLANK">
-      <img src="/images/instagram.png" alt="instagram" width="30" height="30">
+      <img src="./images/instagram.png" alt="instagram" width="30" height="30">
     </a>
     <a class="linkedin foot-icon" href="https://www.linkedin.com/in/fedenkoptv/" target="_BLANK">
-      <img src="/images/linkedin.png" alt="linkedin" width="30" height="30">
+      <img src="./images/linkedin.png" alt="linkedin" width="30" height="30">
     </a>
     <a class="wpp foot-icon" href="https://wa.me/qr/RTROOFNO4ZVHA1" target="_BLANK">
       <img src="./images/whatsapp.png" alt="whatsapp" width="30" height="30">
