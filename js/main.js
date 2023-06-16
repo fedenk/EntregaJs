@@ -38,7 +38,7 @@ let div = document.getElementById("cards");
 
 const mostrarCards = async () => {
     try {
-        const resp = await fetch ("../data.json");
+        const resp = await fetch ("https://raw.githubusercontent.com/fedenk/EntregaJs/main/data.json");
         const info = await resp.json();
 
         info.forEach((item) => {
@@ -103,7 +103,7 @@ mostrarCards();
 
 const agregarAlCarrito = async (id) =>{
   try {
-    const resp = await fetch ("../data.json");
+    const resp = await fetch ("https://raw.githubusercontent.com/fedenk/EntregaJs/main/data.json");
     const info = await resp.json();
 
     const entradaEnCarrito = carrito.find((item) => item.id === id);
@@ -177,7 +177,7 @@ const mostrarCarrito = () => {
 
 const sumar = async (id) =>{
   try {
-    const resp = await fetch ("../data.json");
+    const resp = await fetch ("https://raw.githubusercontent.com/fedenk/EntregaJs/main/data.json");
     const info = await resp.json();
 
     const entradaEnCarrito = carrito.find((item) => item.id === id);
@@ -192,7 +192,7 @@ const sumar = async (id) =>{
 
 const restar = async (id) =>{
   try {
-    const resp = await fetch ("../data.json");
+    const resp = await fetch ("https://raw.githubusercontent.com/fedenk/EntregaJs/main/data.json");
     const info = await resp.json();
 
     const entradaEnCarrito = carrito.find((item) => item.id === id);
