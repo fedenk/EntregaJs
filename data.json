@@ -1,5 +1,5 @@
 [
     { "id": 1, "nombre": "Demulsión", "descripcion": "Tributo AC/DC", "imagen": "./images/acdc.jpg", "precio": 1200, "lugar": "VADENUEVO", "direccion": "Av. Eva Peron 1392", "cantidad": 1, "imagenAlert": "./images/vade.jpg", "fecha":"Sabado 22/7 - 23Hs."},
     { "id": 2, "nombre": "Night Killers", "descripcion": "Tributo Metallica", "imagen": "./images/metallica.jpg", "precio": 1200, "lugar": "PLANTA ALTA", "direccion": "Av. Rivadavia 7609", "cantidad": 1, "imagenAlert": "./images/planta.jpg", "fecha":"Sabado 29/7 - 23Hs."},
-    { "id": 3, "nombre": "Ciudad Paraiso", "descripcion": "Tributo GNR", "imagen": "./images/guns.jpg", "precio": 1200, "lugar": "PANA ROCK", "direccion": "Av. Mariano Acosta 13", "cantidad": 1, "imagenAlert": "./images/pana.jpg", "fecha":"Sabado 5/8 - 23Hs."}
+    { "id": 3, "nombre": "Ciudad Paraiso", "descripcion": "Tributo GNR", "imagen": "./images/guns.jpg", "precio": 1200, "lugar": "PANA ROCK", "direccion": "Av. Mariano Acosta 13", "cantidad": 1, "imagenAlert": "./images/pana.JPG", "fecha":"Sabado 5/8 - 23Hs."}
 ]

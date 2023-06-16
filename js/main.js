@@ -21,7 +21,7 @@ barraNav.innerHTML = `
           <img src="../images/manzana.png" alt="inicio" width="40" height="40" class="img-nav">
           </a>
           <a id="verCarrito" href="carrito" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="../images/carrito-de-compras.png" alt="carrito" width="40" height="40" class="img-nav">
+          <img src="https://github.com/fedenk/EntregaJs/blob/84752b19a07e5c4d9e6ac2ef91f0f3f81f4b0127/images/carrito-de-compras.png" alt="carrito" width="40" height="40" class="img-nav">
           </a>
           <ul class="dropdown-menu" id="contenedorCarrito">
           </ul>
@@ -231,10 +231,10 @@ footerPage.innerHTML = `
       <img src="../images/instagram.png" alt="instagram" width="30" height="30">
     </a>
     <a class="linkedin foot-icon" href="https://www.linkedin.com/in/fedenkoptv/" target="_BLANK">
-      <img src="../images/linkedin.png" alt="instagram" width="30" height="30">
+      <img src="../images/linkedin.png" alt="linkedin" width="30" height="30">
     </a>
     <a class="wpp foot-icon" href="https://wa.me/qr/RTROOFNO4ZVHA1" target="_BLANK">
-      <img src="../images/whatsapp.png" alt="instagram" width="30" height="30">
+      <img src="../images/whatsapp.png" alt="whatsapp" width="30" height="30">
     </a>
  </div>
  </footer>`;
