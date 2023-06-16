@@ -1,5 +1,35 @@
 let datos = [];
 
+//NAVBAR
+let nav = document.getElementById("nav");
+const barraNav = document.createElement("barraNav");
+barraNav.innerHTML = `
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+    <img src="../images/musica.png" alt="inicio" width="40" height="40" class="img-nav">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="navbar-brand" href="./formulario.html">
+          <img src="../images/manzana.png" alt="inicio" width="40" height="40" class="img-nav">
+          </a>
+          <a id="verCarrito" href="carrito" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="../images/carrito-de-compras.png" alt="carrito" width="40" height="40" class="img-nav">
+          </a>
+          <ul class="dropdown-menu" id="contenedorCarrito">
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>`;
+
+nav.append(barraNav);
 let formulario = document.getElementById("form");
 
 const newForm = document.createElement("newForm");
@@ -58,6 +88,29 @@ const capturaDatos = ()=>{
   }
 }
 
+//FOOTER
+
+let footer = document.getElementById("footer");
+const footerPage = document.createElement("footer");
+footerPage.innerHTML = `
+<footer class="row footer-style">
+<div class="col-lg-6">
+<p class="text-center text-style">Web Developer: Fede.Nk</p>
+</div>
+<div class="col-lg-6  centrado">
+    <a class="instagram foot-icon" href="https://www.instagram.com/" target="_BLANK">
+      <img src="../images/instagram.png" alt="instagram" width="30" height="30">
+    </a>
+    <a class="linkedin foot-icon" href="https://www.linkedin.com/in/fedenkoptv/" target="_BLANK">
+      <img src="../images/linkedin.png" alt="linkedin" width="30" height="30">
+    </a>
+    <a class="wpp foot-icon" href="https://wa.me/qr/RTROOFNO4ZVHA1" target="_BLANK">
+      <img src="../images/whatsapp.png" alt="whatsapp" width="30" height="30">
+    </a>
+ </div>
+ </footer>`;
+ document.body.append(footerPage);
+ footer.append(footerPage);
 
 
 
